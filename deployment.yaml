@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product
-        image: us-central1-docker.pkg.dev/ayush-1008/my-repo/product/app:latest
+        image: us-central1-docker.pkg.dev/[project-id]/my-repo/product/app:latest
         ports:
         - containerPort: 8080
 
